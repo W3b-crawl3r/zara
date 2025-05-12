@@ -1,0 +1,33 @@
+body{
+    background-color: white;
+}
+.menu-item1{
+    height: 1.5px;
+    width: 50px;
+    background-color: rgb(65, 65, 65);
+    margin: 13px 3px 3px 3px;
+}
+.menu-item2{
+    height: 1.5px;
+    width: 50px;
+    background-color: rgb(65, 65, 65);
+    margin: 13px 3px 3px 3px;
+}
+.menu-item3{
+    height: 1.5px;
+    width: 50px;
+    background-color: rgb(65, 65, 65);
+    margin: 13px 3px 3px 3px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+}
+.logo img {
+    width: 100px;  /* Set this to the size you want */
+    height: 100px;  /* Maintain aspect ratio */
+    margin: 0;
+}
