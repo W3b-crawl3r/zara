@@ -5,29 +5,57 @@ body{
     height: 1.5px;
     width: 50px;
     background-color: rgb(65, 65, 65);
-    margin: 13px 3px 3px 3px;
+    margin: 3px 3px 3px 3px;
 }
 .menu-item2{
     height: 1.5px;
     width: 50px;
     background-color: rgb(65, 65, 65);
-    margin: 13px 3px 3px 3px;
+    margin: 10px 3px 3px 3px;
 }
 .menu-item3{
     height: 1.5px;
     width: 50px;
     background-color: rgb(65, 65, 65);
-    margin: 13px 3px 3px 3px;
+    margin: 10px 3px 3px 3px;
+}
+.navbar-left{
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0);
 }
 .navbar{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    background-color: white;
+    justify-content: space-between;
+}
+.navbar-right{
+    display: flex;
+    
 }
 .logo img {
     width: 100px;  /* Set this to the size you want */
     height: 100px;  /* Maintain aspect ratio */
     margin: 0;
+}
+.video-background {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.video-background video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+.search-bar input{
+    background-color: transparent;
+    border: none;
+   
 }
